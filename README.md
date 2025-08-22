@@ -16,3 +16,13 @@ This plugin allows users to manage and customize their AWARE device identifier. 
 
 # Providers
 This plugin does not have its own content provider. All device ID changes are stored directly in the AWARE framework's main settings table.
+
+## License
+
+This project is a modified version of the [AWARE ambient_noise plugin](https://github.com/denzilferreira/com.aware.plugin.ambient_noise), 
+which is part of the [AWARE Framework](https://github.com/awareframework/aware-client).
+
+- Original work: Copyright (c) 2011 AWARE Mobile Context Instrumentation Middleware/Framework  
+- Modifications: Copyright (c) 2025 RunGeun
+
+Licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) file for details.
