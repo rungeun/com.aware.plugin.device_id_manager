@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aware.plugin.device_id_manager">
+
+    <uses-permission android:name="com.aware.READ_CONTEXT_DATA" />
+    <uses-permission android:name="com.aware.WRITE_CONTEXT_DATA" />
+
+    <application>
+
+        <service
+            android:name="com.aware.plugin.device_id_manager.Plugin"
+            android:exported="true"
+            android:label="AWARE: Device_Id_Manager"
+            android:permission="com.aware.WRITE_AWARE_SETTINGS">
+        </service>
+
+
+        <activity
+            android:name="com.aware.plugin.device_id_manager.Settings"
+            android:exported="true"
+            android:label="AWARE: device_id_manager">
+        </activity>
+
+
+    </application>
+
+</manifest>

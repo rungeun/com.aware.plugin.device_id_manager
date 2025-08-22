@@ -1,0 +1,1 @@
+include ':com.aware.plugin.device_id_manager', ':com.aware.plugin.device_id_manager.lib'

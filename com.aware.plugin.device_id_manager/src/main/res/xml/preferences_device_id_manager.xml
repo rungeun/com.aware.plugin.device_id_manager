@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="plugin_device_id_manager"
+    android:title="@string/app_name">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="status_plugin_device_id_manager"
+        android:persistent="true"
+        android:summary="Allows custom device ID configuration"
+        android:title="Active"/>
+
+    <EditTextPreference
+        android:key="custom_device_id"
+        android:persistent="true"
+        android:title="Custom Device ID"
+        android:summary="Enter a custom UUID for this device"
+        android:dialogTitle="Enter Device ID"
+        android:dialogMessage="Enter a valid UUID (e.g., 550e8400-e29b-41d4-a716-446655440000)"
+        android:inputType="text" />
+
+    <Preference
+        android:key="generate_uuid"
+        android:title="Generate Random UUID"
+        android:summary="Tap to generate a new random UUID" />
+
+</PreferenceScreen>
